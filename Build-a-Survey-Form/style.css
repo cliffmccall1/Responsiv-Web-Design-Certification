@@ -1,0 +1,53 @@
+html,
+body {
+  background-color: #217ca3;
+  text-align: center;
+  font-family: 'Arial Black', Gadget, sans-serif;
+  color: #211f30;
+}
+form {
+  background: white;
+  border-radius: 5%;
+  color: #211f30;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.header {
+  border-bottom: 1px solid #211f30;
+  padding: 5px;
+}
+
+.input-field {
+  height: 2em;
+  width: 25em;
+  padding: 0.5em;
+  margin: 1em;
+  border: 1px solid #e29930;
+}
+select {
+  height: 2em;
+  margin-top: 1em;
+  width: 25em;
+  margin: 1em;
+  border: 1px solid #e29930;
+}
+textarea {
+  border: 1px solid #e29930;
+  border-radius: 2%;
+  margin-top: 1em;
+}
+#submit {
+  background: #e29930;
+  width: 12em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #221111;
+  border: 1px solid #32384d;
+  font-size: 2em;
+  font-weight: 600;
+}
